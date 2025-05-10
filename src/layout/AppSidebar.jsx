@@ -62,7 +62,7 @@ export default function AppSidebar() {
       id: "dashboard",
       title: "DASHBOARD",
       type: "item",
-      url: "/",
+      url: "/dashboard/agent",
       icon: null,
       children: null,
     },
