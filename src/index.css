@@ -1,0 +1,9 @@
+/* Tailwind */
+@import "tailwindcss";
+
+/* Preline UI */
+@import "preline/variants.css";
+/* @import "./node_modules/preline/variants.css"; */
+
+/* Plugins */
+/* @plugin "@tailwindcss/forms"; */
