@@ -21,7 +21,7 @@ function App() {
         <Routes>
           {/* Dashboard Layout */}
           <Route element={<AppLayout />}>
-            <Route index path="/" element={<Dashboard />} />
+            <Route index path="/" element={<DashboardFatur />} />
             <Route index path="/business-actor" element={<PelakuUsaha />} />
             <Route
               index
@@ -34,7 +34,7 @@ function App() {
               path="/fee-estimation-calculator"
               element={<FeeEstimationCalculator />}
             />
-            <Route index path="/dashboard/agent" element={<DashboardFatur />} />
+            {/* <Route index path="/dashboard/agent" element={<DashboardFatur />} /> */}
             <Route index path="/learning-module" element={<LearningModule />} />
             <Route index path="/post-test" element={<PostTest />} />
             <Route index path="/media" element={<Media />} />
